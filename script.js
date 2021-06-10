@@ -4,10 +4,10 @@ let guess
 while (guess !== myage) {
   guess = parseInt(prompt('Guess my age'))
   if (guess === myage) {
-    alert('You won!')
+    alert('Correct!')
   } else if (guess > myage) {
-    alert('Too high!')
+    alert('Too hot!')
   } else {
-    alert('Too low!')
+    alert('Cold!')
   }
 }
